@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@Api(value = "/tag-editor/")
+@Api(value = "/tag-editor")
 @RequestMapping("/tag-editor")
 public interface TagEditorApi {
 
